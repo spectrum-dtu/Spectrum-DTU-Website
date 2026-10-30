@@ -19,3 +19,7 @@
 @media(max-width:760px){.department-visual{height:340px}.department h3{font-size:32px}.department-copy{padding:22px 24px 25px}.department-scene-label{left:24px;right:24px}.department-introduction{font-size:14px}}
 @media(max-width:380px){.department-visual{height:300px}.department h3{font-size:27px}.department-copy{padding:20px}.department-introduction{font-size:13px}}
 @media(prefers-reduced-motion:reduce){.department,.department-tags li{transition:none}}
+/* Fit long department names without breaking individual words on phones. */
+@media(max-width:760px){
+  .department h3{font-size:clamp(21px,6.4vw,32px);letter-spacing:-.5px;overflow-wrap:normal;word-break:normal;white-space:nowrap}
+}

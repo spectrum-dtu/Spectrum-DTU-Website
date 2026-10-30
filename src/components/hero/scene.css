@@ -9,3 +9,7 @@
 @media(min-width:1700px){.globe-viewport{right:-8%;width:77%}}
 @media(max-width:760px){.globe-viewport{width:132%;height:59%;right:-23%;top:0;opacity:1}.scene-fallback span{font-size:8px;letter-spacing:1px}}
 @media(max-width:380px){.globe-viewport{height:55%}}
+/* Mobile-only adjustments: keep the complete globe above the hero copy. */
+@media(max-width:760px){
+  .globe-viewport{top:84px;right:0;width:100%;height:clamp(290px,95vw,440px)}
+}
