@@ -1,0 +1,6 @@
+.route-placeholder{min-height:100svh;padding:180px 8% 80px;display:flex;flex-direction:column;align-items:flex-start;justify-content:center}
+.route-placeholder h1{font-size:clamp(36px,6vw,76px);margin:0 0 20px;color:#ded3f0;line-height:1.15}
+.route-placeholder p{color:#a49cb8;line-height:1.8;margin:0 0 28px}
+.route-placeholder a{padding:13px 22px;border:1px solid #ad86dc44;border-radius:999px;color:#e3d7f4;font-size:13px}
+.route-placeholder a:hover{background:#a16ce31a}
+.route-placeholder a span{margin-left:12px}

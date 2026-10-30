@@ -1,0 +1,286 @@
+
+.spectrum-footer {
+  color: #f5f7ff;
+  background: #050713;
+  overflow: hidden;
+  border-top: 1px solid rgba(122, 117, 255, 0.2);
+}
+
+/* Animated antenna landscape */
+
+.antenna-scene {
+  position: relative;
+  isolation: isolate;
+  height: 560px;
+  overflow: hidden;
+  background:
+    radial-gradient(ellipse at 50% 100%, #522080 0%, transparent 52%),
+    radial-gradient(ellipse at 20% 85%, #063d65 0%, transparent 48%),
+    linear-gradient(180deg, #050713 0%, #100820 72%, #080b20 100%);
+}
+
+.antenna-glow {
+  position: absolute;
+  z-index: -1;
+  left: 15%;
+  bottom: -45%;
+  width: 70%;
+  height: 85%;
+  border-radius: 50%;
+  background: #762bff;
+  filter: blur(100px);
+  opacity: 0.28;
+}
+
+.antenna-tower {
+  position: absolute;
+  bottom: 0;
+  width: 44px;
+  transform-origin: bottom center;
+  animation: antenna-rise 1.4s ease-out both;
+}
+
+.antenna-mast {
+  position: absolute;
+  left: 50%;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    #8af7ff,
+    #399cff 55%,
+    #d34fff
+  );
+  box-shadow:
+    0 0 10px #35caff,
+    0 0 24px rgba(116, 62, 255, 0.9);
+}
+
+.antenna-cross {
+  position: absolute;
+  left: -8px;
+  width: 52px;
+  height: 1px;
+  background: #71dfff;
+  box-shadow: 0 0 7px #399cff;
+}
+
+.antenna-cross-one {
+  top: 36%;
+}
+
+.antenna-cross-two {
+  top: 67%;
+}
+
+.antenna-panel {
+  position: absolute;
+  top: 18%;
+  width: 9px;
+  height: 54px;
+  border: 1px solid #72eaff;
+  border-radius: 2px;
+  background: linear-gradient(
+    90deg,
+    rgba(64, 212, 255, 0.08),
+    rgba(139, 77, 255, 0.5)
+  );
+  box-shadow:
+    0 0 10px rgba(55, 202, 255, 0.9),
+    inset 0 0 8px rgba(175, 107, 255, 0.7);
+}
+
+.panel-left {
+  left: -9px;
+}
+
+.panel-right {
+  right: -9px;
+  top: 28%;
+}
+
+.antenna-signal {
+  position: absolute;
+  top: 9%;
+  left: calc(50% - 3px);
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #ff4bd8;
+  box-shadow:
+    0 0 10px #ff4bd8,
+    0 0 25px #ff31d4;
+  animation: antenna-pulse 2s ease-in-out infinite;
+}
+
+/* Scene typography */
+
+.antenna-caption {
+  position: absolute;
+  z-index: 2;
+  left: 8%;
+  bottom: 42px;
+}
+
+.antenna-eyebrow {
+  color: #79eaff;
+  font-size: 10px;
+  letter-spacing: 3px;
+}
+
+.antenna-caption h2 {
+  margin-top: 8px;
+  font-size: clamp(32px, 4.5vw, 56px);
+  line-height: 1.08;
+  letter-spacing: -1.5px;
+}
+
+.antenna-accent {
+  color: #b58aff;
+}
+
+.antenna-caption p {
+  margin-top: 16px;
+  color: #b5bad3;
+  font-size: 12px;
+  letter-spacing: 0.8px;
+}
+
+/* Footer links */
+
+.spectrum-footer-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1.5fr 1fr;
+  gap: 40px;
+  padding: 54px 8%;
+  border-top: 1px solid rgba(139, 124, 255, 0.18);
+}
+
+.spectrum-logo {
+  color: #fff;
+  font-size: 23px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+}
+
+.spectrum-logo span {
+  color: #a68aff;
+}
+
+.spectrum-footer-brand p {
+  margin-top: 18px;
+  color: #aab2ca;
+  font-size: 13px;
+  line-height: 1.9;
+}
+
+.spectrum-footer-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+.spectrum-footer-column h3 {
+  margin-bottom: 4px;
+  font-size: 13px;
+  color: #f5f6ff;
+}
+
+.spectrum-footer-column a {
+  color: #aab2ca;
+  font-size: 12px;
+  text-decoration: none;
+  transition: color 0.25s ease, transform 0.25s ease;
+}
+
+.spectrum-footer-column a:hover {
+  color: #7beaff;
+  transform: translateX(4px);
+}
+
+.spectrum-footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 22px 8%;
+  border-top: 1px solid rgba(139, 124, 255, 0.14);
+  color: #838ba7;
+  font-size: 11px;
+}
+
+/* Entrance and signal animations */
+
+@keyframes antenna-rise {
+  from {
+    opacity: 0;
+    transform: translateY(65px) scaleY(0.75);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scaleY(1);
+  }
+}
+
+@keyframes antenna-pulse {
+  0%,
+  100% {
+    opacity: 0.6;
+    transform: scale(0.8);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.5);
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 760px) {
+  .antenna-scene {
+    height: 460px;
+  }
+
+  .antenna-tower {
+    transform: scale(0.78);
+  }
+
+  .antenna-caption {
+    left: 6%;
+    bottom: 28px;
+  }
+
+  .antenna-caption p {
+    max-width: 280px;
+    line-height: 1.8;
+  }
+
+  .spectrum-footer-content {
+    grid-template-columns: 1fr 1fr;
+    gap: 36px 22px;
+    padding: 38px 7%;
+  }
+
+  .spectrum-footer-brand {
+    grid-column: 1 / -1;
+  }
+
+  .spectrum-footer-bottom {
+    flex-direction: column;
+    padding: 20px 7%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .antenna-tower,
+  .antenna-signal {
+    animation: none;
+  }
+
+  .spectrum-footer-column a {
+    transition: none;
+  }
+}

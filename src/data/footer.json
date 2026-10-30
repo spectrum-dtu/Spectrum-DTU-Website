@@ -1,0 +1,64 @@
+{
+  "brand": "SPECTRUM DTU",
+  "description": "Spectrum DTU is a telecommunications, 5G, embedded systems and emerging-technology engineering team at Delhi Technological University.",
+  "tagline": "Decode signals. Deploy hardware. Sync the worlds.",
+  "copyright": "Spectrum DTU · Delhi Technological University",
+  "creditPrefix": "Made by —",
+  "creator": {
+    "name": "Bhavya Sahni",
+    "url": "https://www.linkedin.com/in/bhavya-sahni/"
+  },
+  "columns": [
+    {
+      "heading": "Public navigation",
+      "links": [
+        {
+          "label": "Home",
+          "path": "/"
+        },
+        {
+          "label": "About",
+          "path": "/#connection"
+        },
+        {
+          "label": "Team",
+          "path": "/team"
+        }
+      ]
+    },
+    {
+      "heading": "Explore",
+      "links": [
+        {
+          "label": "Projects",
+          "path": "/projects"
+        },
+        {
+          "label": "Events",
+          "path": "/events"
+        },
+        {
+          "label": "Achievements",
+          "path": "/achievements"
+        },
+        {
+          "label": "Technical domains",
+          "path": "/#technical-domains"
+        }
+      ]
+    },
+    {
+      "heading": "Team",
+      "links": [
+        {
+          "label": "Contact",
+          "path": "/contact"
+        },
+        {
+          "label": "Sponsorship",
+          "path": "/sponsorship"
+        }
+      ]
+    }
+  ]
+}

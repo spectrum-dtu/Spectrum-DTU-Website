@@ -1,0 +1,11 @@
+.connection-section.about-section{margin-block:0;padding:36px 7%;scroll-margin-top:96px}
+.about-inner{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.4fr);gap:9%;align-items:start}
+.about-heading .eyebrow{margin:0 0 20px;color:#ba9ae5;letter-spacing:1.8px;font-size:10px}
+.about-heading h2{font-size:clamp(36px,3.7vw,56px);line-height:1.15;letter-spacing:-1.5px;margin:0;max-width:370px;color:#e9e0f4;text-wrap:balance}
+.about-lead{font-size:clamp(20px,1.8vw,28px);line-height:1.45;letter-spacing:-.4px;margin:0 0 26px;color:#e5deee}
+.about-paragraph{font-size:15px;line-height:1.9;color:#aaa3ba;margin:0 0 23px}
+@media(min-width:1700px){.about-section{padding-left:9%;padding-right:9%}}
+@media(max-width:760px){.connection-section.about-section{padding:28px 8%;scroll-margin-top:86px}.about-inner{grid-template-columns:1fr;gap:30px}.about-heading h2{font-size:38px;max-width:320px}.about-heading .eyebrow{margin-bottom:17px;font-size:9px}.about-lead{font-size:22px;margin-bottom:23px}.about-paragraph{font-size:14px;line-height:1.85}}
+
+
+.about-copy > :last-child{margin-bottom:0}

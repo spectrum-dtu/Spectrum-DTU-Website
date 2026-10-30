@@ -1,0 +1,38 @@
+{
+  "label": "Main navigation",
+  "openLabel": "Open navigation",
+  "closeLabel": "Close navigation",
+  "placeholder": "This page is coming soon.",
+  "returnLabel": "Return to Home",
+  "notFoundTitle": "Page not found",
+  "items": [
+    {
+      "label": "Home",
+      "path": "/"
+    },
+    {
+      "label": "Our Team",
+      "path": "/team"
+    },
+    {
+      "label": "Projects",
+      "path": "/projects"
+    },
+    {
+      "label": "Achievements",
+      "path": "/achievements"
+    },
+    {
+      "label": "Events",
+      "path": "/events"
+    },
+    {
+      "label": "Sponsorship",
+      "path": "/sponsorship"
+    },
+    {
+      "label": "Contact Us",
+      "path": "/contact"
+    }
+  ]
+}

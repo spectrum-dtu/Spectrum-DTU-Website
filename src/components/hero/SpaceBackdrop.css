@@ -1,0 +1,8 @@
+.space-backdrop{position:absolute;inset:0;pointer-events:none;z-index:-1;overflow:hidden}
+.space-backdrop-fixed{position:fixed;background:radial-gradient(ellipse at 82% 51%,#21134355,transparent 53%),radial-gradient(ellipse at 55% 110%,#10133388,transparent 65%),#050612}
+.nebula{position:absolute;inset:0;background:radial-gradient(ellipse at 75% 40%,#571d6620,transparent 40%),radial-gradient(ellipse at 60% 72%,#06415a20,transparent 45%)}
+.space-star{position:absolute;display:block;border-radius:50%;background:#c7eaff;box-shadow:0 0 5px #acddff66;opacity:var(--star-opacity,.5);animation:space-twinkle 6s ease-in-out infinite}
+.space-star:nth-child(3n){background:#f49bfa;box-shadow:0 0 7px #d651ef88}
+.space-star.is-beacon{border:1px solid #d680ec;border-radius:2px;transform:rotate(30deg);background:transparent;box-shadow:0 0 9px #d35ee766}
+@keyframes space-twinkle{0%,100%{opacity:calc(var(--star-opacity)*.4)}50%{opacity:var(--star-opacity)}}
+@media(prefers-reduced-motion:reduce){.space-star{animation:none}}

@@ -1,0 +1,9 @@
+.technical-domains{position:relative;isolation:isolate;padding:64px 7% 20px;background:linear-gradient(180deg,#060815,#080b1b 52%,#080914);border-top:1px solid #ae91dc1c;scroll-margin-top:100px;overflow:clip}
+.domains-intro{max-width:800px;margin:0 auto 38px;text-align:center}
+.domains-eyebrow{font:10px/1.6 monospace;letter-spacing:3px;color:#b6a0e0;margin:0 0 23px}
+.domains-intro h2{font-size:clamp(36px,4.4vw,67px);line-height:1.14;letter-spacing:-1.7px;text-wrap:balance;color:#e9e1f5;margin:0 0 22px}
+.domains-description{font-size:15px;line-height:1.8;color:#aaa4bb;margin:0}
+@media(min-width:1700px){.technical-domains{padding-left:9%;padding-right:9%}}
+@media(max-width:760px){.technical-domains{padding:48px 7% 16px}.domains-intro{margin-bottom:24px;text-align:left}.domains-intro h2{font-size:38px;max-width:500px}.domains-description{font-size:14px}.domains-eyebrow{font-size:9px}}
+.departments-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;align-items:stretch}
+@media(max-width:760px){.departments-grid{grid-template-columns:minmax(0,1fr);gap:20px}}

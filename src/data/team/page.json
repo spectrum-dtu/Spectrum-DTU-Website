@@ -1,0 +1,23 @@
+{
+  "eyebrow":"SPECTRUM DTU / PEOPLE",
+  "heading":"OUR TEAM",
+  "description":"The people behind the ideas, technology and innovation at Spectrum DTU.",
+  "pageTitle":"Our Team | Spectrum DTU",
+  "skipLabel":"Skip to team profiles",
+  "emptyTitle":"Profiles coming soon",
+  "emptyDescription":"This section will be updated with our team profiles.",
+  "viewMore":"View More",
+  "showLess":"Show Less",
+  "linkedinLabel":"LinkedIn profile for",
+  "imageFallbackLabel":"Portrait unavailable for",
+  "defaultName":"Profile",
+  "fallbackInitials":"SD",
+  "visibleLabel":"profiles shown",
+  "membersInitialVisibleCount":12,
+  "sections":[
+    {"id":"faculty-advisors","dataKey":"facultyAdvisors","number":"01","title":"Faculty Advisors","description":"Guidance that connects curiosity with a deeper understanding.","variant":"faculty"},
+    {"id":"core-council","dataKey":"coreCouncil","number":"02","title":"Core Council","description":"The leadership bringing our shared vision into focus.","variant":"core"},
+    {"id":"senior-council","dataKey":"seniorCouncil","number":"03","title":"Senior Council","description":"Experience, collaboration and a commitment to building together.","variant":"senior"},
+    {"id":"members","dataKey":"members","number":"04","title":"Members","description":"Many perspectives. One connected community.","variant":"members"}
+  ]
+}

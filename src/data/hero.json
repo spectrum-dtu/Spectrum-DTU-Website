@@ -1,0 +1,28 @@
+{
+  "brand": "SPECTRUM",
+  "institution": "DELHI TECHNOLOGICAL UNIVERSITY",
+  "eyebrow": "CONNECTED BY CURIOSITY",
+  "title": "SPECTRUM DTU",
+  "tagline": "Decode signals. Deploy hardware. Sync the worlds.",
+  "description": "At the intersection of electronics and imagination. A new wavelength of possibilities.",
+  "action": "Find our frequency",
+  "scrollLabel": "SCROLL TO CONNECT",
+  "next": {
+    "eyebrow": "01 / THE CONNECTION",
+    "title": "Great things begin with a signal.",
+    "description": "From a spark of curiosity to a world of connections. This is where signals, hardware and ideas come together.",
+    "topics": [
+      "SIGNALS",
+      "HARDWARE",
+      "CONNECTIONS"
+    ]
+  },
+  "navAction": "Establish a connection",
+  "skipLabel": "Skip introduction",
+  "loading": "ACQUIRING SIGNAL...",
+  "fallback": "EVERY CONNECTION STARTS WITH A SIGNAL",
+  "sceneLabel": "Three-dimensional Earth with illuminated global communication connections",
+  "coordinates": "28.7501° N · 77.1177° E",
+  "location": "DELHI · INDIA",
+  "transmission": "TRANSMITTING POSSIBILITIES"
+}
